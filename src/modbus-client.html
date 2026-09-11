@@ -47,9 +47,9 @@
     label: function () {
       let node = this
       if (node.clienttype == 'tcp') {
-        return node.name || 'modbus-tcp@' + node.tcpHost + ':' + node.tcpPort
+        return node.name || ('Modbus Connection @' + node.tcpHost + ':' + node.tcpPort)
       } else {
-        return node.name || 'modbus-serial@' + node.serialPort + ':' + node.serialBaudrate
+        return node.name || ('Modbus Connection @' + node.serialPort + ':' + node.serialBaudrate)
       }
     },
     oneditprepare: function () {
