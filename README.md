@@ -1,3 +1,77 @@
+# Modbus
+
+Canvas IO Workflows — maintained integration/fork of an independent Node-RED node package.
+
+## Canvas IO
+
+| | |
+|--|--|
+| Domain | Industrial / Modbus |
+| Development status | Integrated in local harness (cio-wfs-dev) |
+| Palette category (operational) | `Canvas IO` |
+| Config nodes | remain `category: "config"` |
+| Local repository | `cio-wfs-nodes/cio-wfs-node-industrial-modbus` |
+| npm package name | `@sevio-hq/node-red-contrib-modbus` (unchanged) |
+
+`cio-wfs-nodes` is an organizational parent only — not a monorepo. One node package = one Git repository.
+
+This repository is a **Canvas IO-maintained integration/fork**. Protocol and node runtime logic originate from upstream; Canvas IO changes are limited to integration, presentation, and local development packaging.
+
+## Nodes
+
+### Operational (palette: Canvas IO)
+
+- Modbus Read/Write/Getter/Server/Response/Queue/Flex-* nodes
+
+### Configuration
+
+- `modbus-client`, `modbus-io-config`
+
+## Development
+
+```powershell
+cd C:\GitHub\canvasio\cio-wfs-nodes\cio-wfs-node-industrial-modbus
+npm install --ignore-scripts
+npx gulp
+# See docs/DEVELOPMENT.md for native dependency notes.
+```
+
+Local harness:
+
+```powershell
+cd C:\GitHub\canvasio\cio-wfs-dev
+npm install
+cd C:\GitHub\canvasio\cio-wfs-core
+node packages/node_modules/node-red/red.js --userDir C:\GitHub\canvasio\cio-wfs-dev
+```
+
+Open http://localhost:1880
+
+## Testing
+
+```powershell
+npm test
+```
+
+## Upstream
+
+| | |
+|--|--|
+| Original package | `node-red-contrib-modbus / @sevio-hq/node-red-contrib-modbus` |
+| Upstream project | https://github.com/Sevio-HQ/node-red-contrib-modbus (upstream of this Sevio fork) |
+
+Canvas IO does not claim authorship of the original upstream implementation.
+
+## License
+
+BSD-3-Clause — see ``LICENSE``.
+
+---
+
+## Upstream documentation
+
+The following sections retain useful upstream technical documentation (adapted only where needed).
+
 ![Platform Node-RED](https://img.shields.io/badge/Platform-Node--RED-red.png)
 ![Contribution Modbus](https://img.shields.io/badge/Contribution-Modbus-orange.png)
 [![Financial Contributors on Open Collective](https://opencollective.com/node-red-contrib-modbus/all/badge.svg?label=financial+contributors)](https://opencollective.com/node-red-contrib-modbus)

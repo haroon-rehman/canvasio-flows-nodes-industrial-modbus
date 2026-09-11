@@ -23,7 +23,8 @@
     "plusfornodered",
     "modbus",
     "automation",
-    "biancoroyal"
+    "biancoroyal",
+    "canvasio"
   ],
   "engines": {
     "node": ">=18.5"
