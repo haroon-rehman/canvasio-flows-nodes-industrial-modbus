@@ -11,7 +11,7 @@ Canvas IO Workflows — maintained integration/fork of an independent Node-RED n
 | Palette category (operational) | `Canvas IO` |
 | Config nodes | remain `category: "config"` |
 | Local repository | `cio-wfs-nodes/cio-wfs-node-industrial-modbus` |
-| npm package name | `@sevio-hq/node-red-contrib-modbus` (unchanged) |
+| npm package name | `@canvasio/node-industrial-modbus` (`5.40.0-canvasio.1`); upstream `@sevio-hq/node-red-contrib-modbus` `5.40.0` |
 
 `cio-wfs-nodes` is an organizational parent only — not a monorepo. One node package = one Git repository.
 

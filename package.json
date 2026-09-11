@@ -1,6 +1,6 @@
 {
-  "name": "@sevio-hq/node-red-contrib-modbus",
-  "version": "5.40.0",
+  "name": "@canvasio/node-industrial-modbus",
+  "version": "5.40.0-canvasio.1",
   "private": false,
   "description": "The all in one Modbus TCP and Serial contribution long term supported package for Node-RED.",
   "dependencies": {
