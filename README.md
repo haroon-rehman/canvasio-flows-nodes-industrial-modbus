@@ -10,7 +10,7 @@ Canvas IO Workflows — maintained integration/fork of an independent Node-RED n
 | Development status | Integrated in local harness (canvasio-flows-dev) |
 | Palette category (operational) | `Canvas IO` |
 | Config nodes | remain `category: "config"` |
-| Local repository | `canvasio-flows-nodes/canvasio-flows-node-industrial-modbus` |
+| Local repository | `canvasio-flows-nodes/canvasio-flows-nodes-industrial-modbus` |
 | npm package name | `@canvasio/node-industrial-modbus` (`5.40.0-canvasio.1`); upstream `@sevio-hq/node-red-contrib-modbus` `5.40.0` |
 
 `canvasio-flows-nodes` is an organizational parent only — not a monorepo. One node package = one Git repository.
@@ -30,7 +30,7 @@ This repository is a **Canvas IO-maintained integration/fork**. Protocol and nod
 ## Development
 
 ```powershell
-cd C:\GitHub\canvasio\canvasio-flows\canvasio-flows-nodes\canvasio-flows-node-industrial-modbus
+cd C:\GitHub\canvasio\canvasio-flows\canvasio-flows-nodes\canvasio-flows-nodes-industrial-modbus
 npm install --ignore-scripts
 npx gulp
 # See docs/DEVELOPMENT.md for native dependency notes.
