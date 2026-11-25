@@ -9,7 +9,7 @@ are not available.
 ## Recommended local sequence
 
 ```powershell
-cd C:\GitHub\canvasio\cio-wfs-nodes\cio-wfs-node-industrial-modbus
+cd C:\GitHub\canvasio\canvasio-flows\canvasio-flows-nodes\canvasio-flows-node-industrial-modbus
 npm install --ignore-scripts
 npx gulp
 ```
@@ -39,8 +39,8 @@ Do not remove the native dependency solely to avoid Python.
 
 ## Harness
 
-After building `modbus/`, the package is linked from `cio-wfs-dev` via:
+After building `modbus/`, the package is linked from `canvasio-flows-dev` via:
 
 ```text
-file:../cio-wfs-nodes/cio-wfs-node-industrial-modbus
+file:../canvasio-flows-nodes/canvasio-flows-node-industrial-modbus
 ```
